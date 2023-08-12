@@ -1,0 +1,150 @@
+body{
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+background-color: #ddd;
+}
+
+.imgg{
+    width: 200px;
+    height: 200px;
+    margin-left:5%;
+    border-radius: 40px 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+.container1{
+max-width: 100%;
+margin: auto;
+padding: 10px 10px 10px 10px;
+
+}
+
+
+
+.card1{
+border-radius: 10px;
+background-color: azure;
+padding: 10px 10px 10px 10px;
+margin-bottom: 50px;
+}
+.card2{
+    border-radius: 10px;
+    background-color: bisque;  
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+
+}
+
+.card3{
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+    transition: all .2s;
+    }
+
+a:hover{
+    color: orange;
+}
+
+.btn{
+background: #000000;
+padding: 15px 5px;
+color: azure;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+margin-left: 30px;
+text-decoration: none;
+transition: all .2s;
+}
+.btn:hover{
+    opacity: 0.8;
+
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+margin-bottom: 8px;
+border-bottom: 1px solid gray;
+width: 700px;
+}
+
+.list li:hover{
+color: orange;
+}
+
+.table{
+width: 100%;
+}
+
+.table1 td{
+padding: 5px;
+border-bottom: 1px solid gray;
+text-align: center;
+}
+
+.table td:hover{
+color: orange;
+}
+
+.card h2{
+text-align: center;
+}
+
+.group label{
+    display: block;
+    font-size: 14px;
+    color: gray;
+
+}
+.row{
+margin-bottom: 10px;
+display: flex;
+width: 50%;
+
+}
+.row .group:last-child{
+margin-right: 0;
+}
+.row .group{
+margin-right: 20px;
+width: 50%;
+}
+
+.group input,
+.group textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom:1px solid black ;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+
+}
+@media (max-width:650px){
+    .container1{
+    display: flex;
+    }
+    .container1 h1{
+    text-align: center;
+    }
+
+
+}
